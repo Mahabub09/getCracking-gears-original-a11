@@ -28,41 +28,42 @@ const Header = () => {
                 </Container>
             </Navbar>
             <div className='carou'>
-                <Carousel fade >
+                <Carousel fade>
                     <Carousel.Item>
                         <img
                             className="d-block w-100  "
                             src={banner1}
                             alt="First slide"
                         />
-                        <Carousel.Caption className='mb-5'>
-                            <h1 className='fw-bold fs-2 font-mono'>
+                        <Carousel.Caption className='mb-3'>
+                            <h1 className=' fs-3 font-mono  underline underline-offset-4  '>
                                 COMPLETE ALL YOUR OUTDOOR NEEDS HERE</h1>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p>Traveling well can be one of life's great pleasures, whether you're alone or with family and friends—and this is true now more than ever, after two years of sticking close to home.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100 "
+                            className="d-block w-100  "
                             src={banner2}
                             alt="Second slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3 className='fs-3 font-mono  underline underline-offset-4'>PROVIDE ALL YOUR OUTDOOR NEEDS</h3>
+                            {/* <hr className='w-50 text-center h-5' /> */}
+                            <p>Over the past eight years, we've spent hundreds of hours researching and testing dozens of products to find the most dependable items to help you travel well.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                            className="d-block w-100 "
+                            className="d-block w-100  "
                             src={banner3}
                             alt="Third slide"
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h3 className='fs-3 font-mono  underline underline-offset-4'>IMPORT YOUR SUITABLE PRODUCTS</h3>
+                            <p>And we relied heavily on Wirecutter staff experiences, since this is an especially mobile group that has worked remotely from every continent</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

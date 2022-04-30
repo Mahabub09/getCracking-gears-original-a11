@@ -1,8 +1,4 @@
 .carou img {
-    max-height: 500px !important;
-    background-color: black !important;
-}
+    max-height: 600px !important;
 
-.Carousel.Item {
-    background: rgba(0, 0, 0, 0.2);
 }

@@ -1,77 +1,93 @@
-import React from 'react';
-import { Carousel, Container, Nav, Navbar } from 'react-bootstrap';
+import React, { Component } from 'react'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 import './Header.css'
-import banner1 from '../../Images/banner1.jpg'
-import banner2 from '../../Images/banner2.jpg'
-import banner3 from '../../Images/banner3.jpg'
+import Typewriter from 'typewriter-effect';
 
-const Header = () => {
-    return (
-        <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container>
-                    <Navbar.Brand href="#home">Get Cracking Gears</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#features">Features</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
 
-                        </Nav>
-                        <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
-                            <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
-                            </Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-            <div className='carou'>
-                <Carousel fade>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100  "
-                            src={banner1}
-                            alt="First slide"
-                        />
-                        <Carousel.Caption className='mb-3'>
-                            <h1 className=' fs-3 font-mono  underline underline-offset-4  '>
-                                COMPLETE ALL YOUR OUTDOOR NEEDS HERE</h1>
-                            <p>Traveling well can be one of life's great pleasures, whether you're alone or with family and friends—and this is true now more than ever, after two years of sticking close to home.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100  "
-                            src={banner2}
-                            alt="Second slide"
-                        />
 
-                        <Carousel.Caption>
-                            <h3 className='fs-3 font-mono  underline underline-offset-4'>PROVIDE ALL YOUR OUTDOOR NEEDS</h3>
-                            {/* <hr className='w-50 text-center h-5' /> */}
-                            <p>Over the past eight years, we've spent hundreds of hours researching and testing dozens of products to find the most dependable items to help you travel well.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100  "
-                            src={banner3}
-                            alt="Third slide"
-                        />
 
-                        <Carousel.Caption>
-                            <h3 className='fs-3 font-mono  underline underline-offset-4'>IMPORT YOUR SUITABLE PRODUCTS</h3>
-                            <p>And we relied heavily on Wirecutter staff experiences, since this is an especially mobile group that has worked remotely from every continent</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+export default class Banner extends Component {
+
+
+    render() {
+        return (
+            <div>
+                <div>
+                    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+                        <Container>
+                            <Navbar.Brand href="#home">Get Cracking Gears</Navbar.Brand>
+                            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                            <Navbar.Collapse id="responsive-navbar-nav">
+                                <Nav className="me-auto">
+                                    <Nav.Link href="#features">Features</Nav.Link>
+                                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+
+                                </Nav>
+                                <Nav>
+                                    <Nav.Link href="#deets">More deets</Nav.Link>
+                                    <Nav.Link eventKey={2} href="#memes">
+                                        Dank memes
+                                    </Nav.Link>
+                                </Nav>
+                            </Navbar.Collapse>
+                        </Container>
+                    </Navbar>
+
+                </div>
+                <div>
+                    <header class="header">
+                        <div class="header__logo-box">
+
+                            <div class="header__logo-box-mid">
+                                <img src="https://www.wanderon.in/svg/nav/phone.svg" alt="phone" />
+                                <h1>+880145456454</h1>
+                            </div>
+
+                            <div class="header__logo-box-last">
+                                <h1>Home</h1>
+                                <h1>WORKCATIONS</h1>
+                                <h1>BLOGS</h1>
+                            </div>
+                        </div>
+
+                        <div class="header__text-box">
+                            <h1 >
+                                COMPLETE ALL YOUR OUTDOOR NEEDS HERE
+                            </h1>
+                            <p className='mt-10'>
+                                <Typewriter
+                                    options={{
+                                        strings: [' Spreading Happiness', ' Connecting People', " Creating Memories", " Creating Stories", " Fulfilling Adventure"],
+                                        autoStart: true,
+                                        loop: true,
+                                    }}
+                                    onInit={(typewriter) => {
+                                        typewriter.typeString()
+                                            .callFunction(() => {
+                                                console.log('String typed out!');
+                                            })
+                                            .pauseFor(1000)
+                                            .deleteAll()
+                                            .callFunction(() => {
+                                                console.log('All strings were deleted');
+                                            })
+                                            .start();
+                                    }}
+                                />
+                            </p>
+
+
+                            <div className="header__text-box-inputContainer">
+                                <input placeholder="Search Whatever You Want" />
+                                <div className="header__text-box-inputContainer-imgConatiner">
+                                    <img src="https://www.wanderon.in/svg/search.svg" alt="phone" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </header >
+                </div>
             </div>
-
-
-        </div>
-    );
-};
-
-export default Header;
+        )
+    }
+}

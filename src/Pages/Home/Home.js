@@ -3,6 +3,7 @@ import { GiRunningShoe } from "react-icons/gi";
 import { GiLightBackpack } from "react-icons/gi";
 import { GiSleevelessJacket } from "react-icons/gi";
 import { GiCampingTent } from "react-icons/gi";
+import Items from '../../Components/Items/Items';
 
 
 const Home = () => {
@@ -31,6 +32,9 @@ const Home = () => {
                 <h1>
 
                 </h1>
+            </div>
+            <div>
+                <Items></Items>
             </div>
 
         </div>

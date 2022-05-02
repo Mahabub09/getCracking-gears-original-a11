@@ -36,14 +36,14 @@ export default class Banner extends Component {
                 </div>
                 <div>
                     <header class="header">
-                        <div class="header__logo-box">
+                        <div class="header__logo-box ">
 
                             <div class="header__logo-box-mid">
                                 <img src="https://www.wanderon.in/svg/nav/phone.svg" alt="phone" />
                                 <h1>+880145456454</h1>
                             </div>
 
-                            <div class="header__logo-box-last">
+                            <div class="header__logo-box-last d-flex justify-around">
                                 <h1>Home</h1>
                                 <h1>WORKCATIONS</h1>
                                 <h1>BLOGS</h1>

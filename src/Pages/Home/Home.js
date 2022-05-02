@@ -4,6 +4,7 @@ import { GiLightBackpack } from "react-icons/gi";
 import { GiSleevelessJacket } from "react-icons/gi";
 import { GiCampingTent } from "react-icons/gi";
 import Items from '../../Components/Items/Items';
+import Team from '../../Components/Team/Team';
 
 
 const Home = () => {
@@ -35,6 +36,10 @@ const Home = () => {
             </div>
             <div>
                 <Items></Items>
+            </div>
+            <div>
+                <Team></Team>
+
             </div>
 
         </div>

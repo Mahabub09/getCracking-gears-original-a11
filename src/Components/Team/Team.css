@@ -2,7 +2,6 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .Team {
-    width: 25%;
-    margin: 10rem auto;
-    height: 570px;
+    width: 65%;
+    height: 600px;
 }

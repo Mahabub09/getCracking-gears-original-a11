@@ -1,9 +1,3 @@
-body {
-  background-image: url(/src/Images/bg.jpg);
-  background: cover;
-  background-size: 100%;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

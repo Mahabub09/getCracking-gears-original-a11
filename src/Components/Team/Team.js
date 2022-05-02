@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Slider from 'react-slick/lib/slider';
-import banner1 from '../../Images/banner1.jpg'
-import banner2 from '../../Images/banner2.jpg'
-import banner3 from '../../Images/banner3.jpg'
-import bg from '../../Images/bg.jpg'
+import t1 from '../../Images/t1.jpg'
+import t2 from '../../Images/t2.jpg'
+import t3 from '../../Images/t3.jpg'
+import t4 from '../../Images/t4.jpg'
+import t5 from '../../Images/t5.jpg'
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import './Team.css'
 
-const images = [banner1, banner2, banner3, bg]
+
 
 const Item = () => {
 
@@ -40,14 +41,44 @@ const Item = () => {
 
     }
     return (
-        <div className='Team'>
-            <Slider {...settings}>
-                {images.map((img, idx) => (
-                    <div>
-                        <img src={img} alt={img} />
-                        <h1>hello</h1>
-                    </div>
-                ))}
+        <div className='Team mx-auto'>
+            <Slider className='rounded-md'  {...settings}>
+                <div className='bg-white mx-3'>
+                    <img className='rounded-full ' src={t1} alt="" />
+                    <h1>akjbdh</h1>
+                    <p>DGVfgvgdgfusyhdfgfh</p>
+                    <small><i>manager</i></small>
+
+                </div>
+                <div className='bg-white mx-3'>
+                    <img className='rounded-full ' src={t2} alt="" />
+                    <h1>akjbdh</h1>
+                    <p>DGVfgvgdgfusyhdfgfh</p>
+                    <small><i>manager</i></small>
+
+                </div>
+                <div className='bg-white mx-3'>
+                    <img className='rounded-full' src={t3} alt="" />
+                    <h1>akjbdh</h1>
+                    <p>DGVfgvgdgfusyhdfgfh</p>
+                    <small><i>manager</i></small>
+
+                </div>
+                <div className='bg-white mx-3'>
+                    <img className='rounded-full' src={t4} alt="" />
+                    <h1>akjbdh</h1>
+                    <p>DGVfgvgdgfusyhdfgfh</p>
+                    <small><i>manager</i></small>
+
+                </div>
+                <div className='bg-white mx-3'>
+                    <img className='rounded-full' src={t5} alt="" />
+                    <h1>akjbdh</h1>
+                    <p>DGVfgvgdgfusyhdfgfh</p>
+                    <small><i>manager</i></small>
+
+                </div>
+
 
 
             </Slider>

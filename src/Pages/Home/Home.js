@@ -5,11 +5,12 @@ import { GiSleevelessJacket } from "react-icons/gi";
 import { GiCampingTent } from "react-icons/gi";
 import Items from '../../Components/Items/Items';
 import Team from '../../Components/Team/Team';
+import './Home.css'
 
 
 const Home = () => {
     return (
-        <div className='my-5 container'>
+        <div className='my-5 container back'>
             <div>
                 <hr className='my-2' />
                 <div className='d-flex justify-evenly'>

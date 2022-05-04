@@ -9,14 +9,16 @@ const Items = () => {
             .then(data => setItems(data))
     }, [])
     return (
-        <div>
+        <div >
             <h1>Items; {items.length}</h1>
-            {/* {
-                items.map(item => <Item
-                    key={item.id}
-                    item={item}
-                ></Item>)
-            } */}
+            <div className='grid grid-cols-3 gap-3'>
+                {
+                    items.map(item => <Item
+                        key={item.id}
+                        item={item}
+                    ></Item>)
+                }
+            </div>
 
         </div>
     );

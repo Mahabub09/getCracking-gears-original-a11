@@ -43,39 +43,45 @@ const Item = () => {
     return (
         <div className='Team mx-auto'>
             <Slider className='rounded-md'  {...settings}>
-                <div className='bg-white mx-3'>
-                    <img className='rounded-full ' src={t1} alt="" />
+                <div >
+                    <img className=' w-50 rounded-full mx-auto ' src={t1} alt="" />
                     <h1>akjbdh</h1>
                     <p>DGVfgvgdgfusyhdfgfh</p>
                     <small><i>manager</i></small>
 
                 </div>
-                <div className='bg-white mx-3'>
-                    <img className='rounded-full ' src={t2} alt="" />
+                <div>
+                    <img className='w-50 rounded-full mx-auto ' src={t2} alt="" />
                     <h1>akjbdh</h1>
                     <p>DGVfgvgdgfusyhdfgfh</p>
                     <small><i>manager</i></small>
 
                 </div>
-                <div className='bg-white mx-3'>
-                    <img className='rounded-full' src={t3} alt="" />
-                    <h1>akjbdh</h1>
-                    <p>DGVfgvgdgfusyhdfgfh</p>
-                    <small><i>manager</i></small>
+                <div >
+                    <img className='w-50 rounded-full mx-auto' src={t3} alt="" />
+                    <div className='text-center'>
+                        <h1>Sergio Peinson</h1>
+                        <p>DGVfgvgdgfusyhdfgfh</p>
+                        <small><i>manager</i></small>
+                    </div>
 
                 </div>
-                <div className='bg-white mx-3'>
-                    <img className='rounded-full' src={t4} alt="" />
-                    <h1>akjbdh</h1>
-                    <p>DGVfgvgdgfusyhdfgfh</p>
-                    <small><i>manager</i></small>
+                <div>
+                    <img className='w-50 rounded-full mx-auto ' src={t4} alt="" />
+                    <div className='text-center'>
+                        <h1 className='fs-4'>Mario Bangua</h1>
+                        <p>DGVfgvgdgfusyhdfgfh</p>
+                        <small><i>manager</i></small>
+                    </div>
 
                 </div>
-                <div className='bg-white mx-3'>
-                    <img className='rounded-full' src={t5} alt="" />
-                    <h1>akjbdh</h1>
-                    <p>DGVfgvgdgfusyhdfgfh</p>
-                    <small><i>manager</i></small>
+                <div >
+                    <img className='w-50 rounded-full mx-auto ' src={t5} alt="" />
+                    <div className='text-center'>
+                        <h1 className='fs-4'>Emma Jackson</h1>
+                        <p>DGVfgvgdgfusyhdfgfh</p>
+                        <small><i>manager</i></small>
+                    </div>
 
                 </div>
 

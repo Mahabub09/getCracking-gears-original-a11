@@ -1,56 +1,164 @@
 [
     {
         "id": 1,
-        "city": "Turkey",
-        "title": "Grand Turkey",
-        "duration": "8DAYS",
-        "price": "$2000",
-        "img": "https://i.ibb.co/3SfTjdN/Background.png",
-        "description": "TURKEY MOST EXCITING TRIP EXPERIENCES 7 DAYS EXCITING TRIP"
+        "name": "Ultimate Memory Pillow",
+        "supplier_namer": "MINISO",
+        "quantity": "120",
+        "price": "$8",
+        "img": "https://go.travel/media/catalog/product/cache/5d2842348c780e6b1d1fd33dba6d9950/A/4/A488KK_prod_a_col1_liquorice_black.png",
+        "short_description": " Recessed tension straps loop around entire pillow for a snug 360° fit.Luxuriously soft fabric."
     },
     {
         "id": 2,
-        "city": "Spain",
-        "title": "Grand Spain Madrid",
-        "duration": "9DAYS",
-        "price": "$3000",
-        "img": " https://i.ibb.co/HLSWKW7/spain.png ",
-        "description": "SPAIN MOST EXCITING TRIP EXPERIENCES 8 DAYS EXCITING TRIP."
+        "name": "Ezer Carrirer Bag",
+        "supplier_namer": "EZER",
+        "quantity": "80",
+        "price": "$81",
+        "img": "https://templatekit.jegtheme.com/ezer/wp-content/uploads/sites/255/2022/04/blue-hiking-backpack-with-fitness-mat-isolated-on-white-934x1024.jpg",
+        "short_description": "Xtra light foldaway travel holdal.Compresses in seconds for easy storage"
     },
     {
         "id": 3,
-        "city": "Austria",
-        "title": "Swiss Alps Trio",
-        "duration": "13DAYS",
-        "price": "$4000",
-        "img": "https://i.ibb.co/H7RxDJ0/austria.png",
-        "description": "EUROPE MOST ROMANTIC TRIP EXPERIENCES 12 DAYS ROMANTIC TRIP."
+        "name": "Turkey",
+        "supplier_namer": "Extreme Boots",
+        "quantity": "95",
+        "price": "$56",
+        "img": "https://templatekit.jegtheme.com/ezer/wp-content/uploads/sites/255/2022/04/yellow-leather-boots-e1649571953493-684x1024.jpg",
+        "short_description": "TURKEY MOST EXCITING TRIP EXPERIENCES 7 DAYS EXCITING TRIP"
     },
     {
         "id": 4,
-        "city": "Italy",
-        "title": "Grand Italy",
-        "duration": "8DAYS",
-        "price": "$3000",
-        "img": "https://i.ibb.co/qJ5VNVb/italy.png",
-        "description": "ITALY MOST ROMANTIC TRIP  EXPERIENCES 7 DAYS EXCITING TRIP."
+        "name": "Turkey",
+        "supplier_namer": "Grand Turkey",
+        "quantity": "8DAYS",
+        "price": "$2000",
+        "img": "https://i.ibb.co/3SfTjdN/Background.png",
+        "short_description": "Tough Quality Shoes For tough places."
     },
     {
         "id": 5,
-        "city": "England",
-        "title": "UK Trip",
-        "duration": "13DAYS",
-        "price": "$5000",
-        "img": "https://i.ibb.co/THZ2jmY/england.png",
-        "description": "UK MOST ROMANTIC TRIP EXPERIENCES 12 DAYS ROMANTIC TRIP."
+        "name": "Coleman Sundome Tent",
+        "supplier_namer": "Grand Turkey",
+        "quantity": "47",
+        "price": "$120",
+        "img": "https://demo73leotheme.b-cdn.net/prestashop/leo_camptree_demo/28-large_default/brown-bear-printed-sweater.jpg",
+        "short_description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort."
     },
     {
         "id": 6,
-        "city": "Slovenia",
-        "title": "East Trip",
-        "duration": "10DAYS",
-        "price": "$3000",
-        "img": "https://i.ibb.co/9vV7MLS/slovenia.png",
-        "description": "EAST EUROPE MOST ROMANTIC TRIP EXPERIENCES 9 DAYS ROMANTIC TRIP."
+        "name": "The Original White Noise Machine Soothing Natural Sound",
+        "supplier_namer": "Grand Turkey",
+        "quantity": "60",
+        "price": "$37",
+        "img": "https://demo73leotheme.b-cdn.net/prestashop/leo_camptree_demo/36-large_default/the-adventure-begins-framed-poster.jpg",
+        "short_description": "Printed on rigid matt finish and smooth surface."
+    },
+    {
+        "id": 7,
+        "name": "O2COOL 5 Portable Fan Battery Powered",
+        "supplier_namer": "RUMMYGEN",
+        "quantity": "55",
+        "price": "$35",
+        "img": "https://demo73leotheme.b-cdn.net/prestashop/leo_camptree_demo/34-large_default/the-best-is-yet-to-come-framed-poster.jpg",
+        "short_description": "The best is yet to come! Give your walls a voice with a framed poster. This aesthethic, optimistic poster will look great in your desk or in an open-space office. Painted wooden frame with passe-partout for more depth."
+    },
+    {
+        "id": 8,
+        "name": "Travel Blanket Black",
+        "supplier_namer": "SAFE TEXTILE",
+        "quantity": "126",
+        "price": "$67",
+        "img": "https://go.travel/media/catalog/product/cache/00076d74d9c8a3f4b3295aa57b1dbb5d/4/6/466KK_prod_a_col1_liquorice_black.jpg",
+        "short_description": "Cosy, lightweight fleece travel blanket provides excellent warmth"
+    },
+    {
+        "id": 9,
+        "name": "TSA Combi Padlocks",
+        "supplier_namer": "TSA",
+        "quantity": "24",
+        "price": "22",
+        "img": "https://go.travel/media/catalog/product/cache/68c45a9b80e517652923c3f3dc879731/3/4/344_prod_a_col1_fuchsia_1.jpg",
+        "short_description": "TSA accepted combination luggage locks.Reliable, 3 dial design - no keys to lose"
+    },
+    {
+        "id": 10,
+        "name": "TSA Twist 'N' Set Padlock",
+        "supplier_namer": "TSA",
+        "quantity": "18",
+        "price": "21",
+        "img": "https://go.travel/media/catalog/product/cache/74ae37965bd55ccf027630783ae922a3/3/5/357_prod_a_col1_liquorice_black_1.jpg",
+        "short_description": "TSA accepted combination lock.Easy to use"
+    },
+    {
+        "id": 11,
+        "name": "Twin Packing Cubes",
+        "supplier_namer": "CAT",
+        "quantity": "63",
+        "price": "$26",
+        "img": "https://go.travel/media/catalog/product/cache/68c45a9b80e517652923c3f3dc879731/2/8/285_prod_a_col1_royal_blue.jpg",
+        "short_description": "Set of 2 large packing cubes.Ideal for organising luggage and garment protection"
+    },
+    {
+        "id": 12,
+        "name": "Turkey",
+        "supplier_namer": "Grand Turkey",
+        "quantity": "8DAYS",
+        "price": "$2000",
+        "img": "https://i.ibb.co/3SfTjdN/Background.png",
+        "short_description": "TURKEY MOST EXCITING TRIP EXPERIENCES 7 DAYS EXCITING TRIP"
+    },
+    {
+        "id": 13,
+        "name": "Money Belt",
+        "supplier_namer": "ADIDAS",
+        "quantity": "150",
+        "price": "$12",
+        "img": "https://go.travel/media/catalog/product/cache/b5fe645b77afb63a8db566442e0f96d6/1/7/175_prod_a_col1_gun_metal_2.jpg",
+        "short_description": "Unisex money belt.Conceals valuables under clothing.Soft, comfy & easy to wear"
+    },
+    {
+        "id": 14,
+        "name": "Travel Towel",
+        "supplier_namer": "AFS TEXTILE",
+        "quantity": "100",
+        "price": "$6",
+        "img": "https://go.travel/media/catalog/product/cache/68c45a9b80e517652923c3f3dc879731/4/4/443_prod_a_col2_blueberry_1.jpg",
+        "short_description": "Ultra compact travel towel.Made from high quality microfibre.Super absorbent & fast drying"
+    },
+    {
+        "id": 15,
+        "name": "The Nightshade",
+        "supplier_namer": "TUNISH",
+        "quantity": "110",
+        "price": "$9",
+        "img": "https://go.travel/media/catalog/product/cache/b5fe645b77afb63a8db566442e0f96d6/7/2/723_prod_a_col1_gun_metal.jpg",
+        "short_description": " Ultra comfortable sleep mask. Blocks out unwanted light"
+    },
+    {
+        "id": 16,
+        "name": "Lightning Retractable Cable",
+        "supplier_namer": "MFI",
+        "quantity": "60",
+        "price": "$18",
+        "img": "https://go.travel/media/catalog/product/cache/b5fe645b77afb63a8db566442e0f96d6/9/5/955_prod_a_col1_liquorice_black.jpg",
+        "short_description": "USB charging cable with Lightning connector. Compatible with latest Apple® devices."
+    },
+    {
+        "id": 17,
+        "name": "Power Bank 2500",
+        "supplier_namer": "BASEUS",
+        "quantity": "180",
+        "price": "$22",
+        "img": "https://go.travel/media/catalog/product/cache/b5fe645b77afb63a8db566442e0f96d6/9/6/961_prod_a_col1_petrol_blue.jpg",
+        "short_description": " 2500mAh capacity back-up power supply.Ideal for charging smartphones and USB devices in just 1.5 hours"
+    },
+    {
+        "id": 18,
+        "name": "Digi Scales",
+        "supplier_namer": "ASTRUM",
+        "quantity": "92",
+        "price": "$7",
+        "img": "https://go.travel/media/catalog/product/cache/b5fe645b77afb63a8db566442e0f96d6/2/0/2006_prod_a_col1_strawberry_red.jpg",
+        "short_description": " Weighs up to 40kgs / 88lbs. Ultra lightweight & compact"
     }
 ]

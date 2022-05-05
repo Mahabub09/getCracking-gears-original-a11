@@ -10,7 +10,7 @@ import './Team.css'
 
 
 
-const Item = () => {
+const Team = () => {
 
     const NextArrow = ({ onClick }) => {
         return (
@@ -95,4 +95,4 @@ const Item = () => {
     );
 };
 
-export default Item;
+export default Team;

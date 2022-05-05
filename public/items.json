@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "Ultimate Memory Pillow",
         "supplier_namer": "MINISO",
         "quantity": "120",
@@ -9,7 +8,6 @@
         "short_description": " Recessed tension straps loop around entire pillow for a snug 360° fit.Luxuriously soft fabric."
     },
     {
-        "id": 2,
         "name": "Ezer Carrirer Bag",
         "supplier_namer": "EZER",
         "quantity": "80",
@@ -18,25 +16,22 @@
         "short_description": "Xtra light foldaway travel holdal.Compresses in seconds for easy storage"
     },
     {
-        "id": 3,
-        "name": "Turkey",
-        "supplier_namer": "Extreme Boots",
+        "name": "Extreme Boots",
+        "supplier_namer": "TOUGH",
         "quantity": "95",
         "price": "$56",
         "img": "https://templatekit.jegtheme.com/ezer/wp-content/uploads/sites/255/2022/04/yellow-leather-boots-e1649571953493-684x1024.jpg",
-        "short_description": "TURKEY MOST EXCITING TRIP EXPERIENCES 7 DAYS EXCITING TRIP"
+        "short_description": " 2 RFID credit card covers. 1 Cover protects 1 credit card"
     },
     {
-        "id": 4,
-        "name": "Turkey",
-        "supplier_namer": "Grand Turkey",
-        "quantity": "8DAYS",
-        "price": "$2000",
-        "img": "https://i.ibb.co/3SfTjdN/Background.png",
+        "name": "RFID Card Guards",
+        "supplier_namer": "RFID",
+        "quantity": "20",
+        "price": "$30",
+        "img": "https://go.travel/media/catalog/product/cache/93dbbd6a2764a50a3744b5d7d1fc9f11/6/8/688_prod_a_col1_liquorice_black.jpg",
         "short_description": "Tough Quality Shoes For tough places."
     },
     {
-        "id": 5,
         "name": "Coleman Sundome Tent",
         "supplier_namer": "Grand Turkey",
         "quantity": "47",
@@ -45,7 +40,6 @@
         "short_description": "Regular fit, round neckline, long sleeves. 100% cotton, brushed inner side for extra comfort."
     },
     {
-        "id": 6,
         "name": "The Original White Noise Machine Soothing Natural Sound",
         "supplier_namer": "Grand Turkey",
         "quantity": "60",
@@ -54,16 +48,14 @@
         "short_description": "Printed on rigid matt finish and smooth surface."
     },
     {
-        "id": 7,
-        "name": "O2COOL 5 Portable Fan Battery Powered",
+        "name": "Portable Fan Battery Powered",
         "supplier_namer": "RUMMYGEN",
         "quantity": "55",
         "price": "$35",
         "img": "https://demo73leotheme.b-cdn.net/prestashop/leo_camptree_demo/34-large_default/the-best-is-yet-to-come-framed-poster.jpg",
-        "short_description": "The best is yet to come! Give your walls a voice with a framed poster. This aesthethic, optimistic poster will look great in your desk or in an open-space office. Painted wooden frame with passe-partout for more depth."
+        "short_description": "The best is yet to come! Give your walls a voice with a framed poster."
     },
     {
-        "id": 8,
         "name": "Travel Blanket Black",
         "supplier_namer": "SAFE TEXTILE",
         "quantity": "126",
@@ -72,7 +64,6 @@
         "short_description": "Cosy, lightweight fleece travel blanket provides excellent warmth"
     },
     {
-        "id": 9,
         "name": "TSA Combi Padlocks",
         "supplier_namer": "TSA",
         "quantity": "24",
@@ -81,7 +72,6 @@
         "short_description": "TSA accepted combination luggage locks.Reliable, 3 dial design - no keys to lose"
     },
     {
-        "id": 10,
         "name": "TSA Twist 'N' Set Padlock",
         "supplier_namer": "TSA",
         "quantity": "18",
@@ -90,7 +80,6 @@
         "short_description": "TSA accepted combination lock.Easy to use"
     },
     {
-        "id": 11,
         "name": "Twin Packing Cubes",
         "supplier_namer": "CAT",
         "quantity": "63",
@@ -99,16 +88,14 @@
         "short_description": "Set of 2 large packing cubes.Ideal for organising luggage and garment protection"
     },
     {
-        "id": 12,
-        "name": "Turkey",
+        "name": "Add a Bag",
         "supplier_namer": "Grand Turkey",
-        "quantity": "8DAYS",
-        "price": "$2000",
-        "img": "https://i.ibb.co/3SfTjdN/Background.png",
-        "short_description": "TURKEY MOST EXCITING TRIP EXPERIENCES 7 DAYS EXCITING TRIP"
+        "quantity": "180",
+        "price": "$4",
+        "img": "https://go.travel/media/catalog/product/cache/b5fe645b77afb63a8db566442e0f96d6/2/1/219_prod_a_col1_liquorice_black.jpg",
+        "short_description": " Strap attachment for wheeled luggage.Allows additional bags to be carried"
     },
     {
-        "id": 13,
         "name": "Money Belt",
         "supplier_namer": "ADIDAS",
         "quantity": "150",
@@ -126,7 +113,6 @@
         "short_description": "Ultra compact travel towel.Made from high quality microfibre.Super absorbent & fast drying"
     },
     {
-        "id": 15,
         "name": "The Nightshade",
         "supplier_namer": "TUNISH",
         "quantity": "110",
@@ -135,7 +121,6 @@
         "short_description": " Ultra comfortable sleep mask. Blocks out unwanted light"
     },
     {
-        "id": 16,
         "name": "Lightning Retractable Cable",
         "supplier_namer": "MFI",
         "quantity": "60",
@@ -144,7 +129,6 @@
         "short_description": "USB charging cable with Lightning connector. Compatible with latest Apple® devices."
     },
     {
-        "id": 17,
         "name": "Power Bank 2500",
         "supplier_namer": "BASEUS",
         "quantity": "180",
@@ -153,7 +137,6 @@
         "short_description": " 2500mAh capacity back-up power supply.Ideal for charging smartphones and USB devices in just 1.5 hours"
     },
     {
-        "id": 18,
         "name": "Digi Scales",
         "supplier_namer": "ASTRUM",
         "quantity": "92",

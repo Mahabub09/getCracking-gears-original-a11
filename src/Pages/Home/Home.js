@@ -3,33 +3,36 @@ import { GiRunningShoe } from "react-icons/gi";
 import { GiLightBackpack } from "react-icons/gi";
 import { GiSleevelessJacket } from "react-icons/gi";
 import { GiCampingTent } from "react-icons/gi";
-import Items from '../../Components/Items/Items';
-import Team from '../../Components/Team/Team';
+
 import Typewriter from 'typewriter-effect';
 import './Home.css'
+import useItems from '../../hooks/useItems';
+import Item from '../../Components/Item/Item';
+import Team from '../../Components/Team/Team';
 
 
 const Home = () => {
+    const [items] = useItems();
     return (
 
         <div>
             <div>
-                <header class="header">
-                    <div class="header__logo-box ">
+                <header className="header">
+                    <div className="header__logo-box ">
 
-                        <div class="header__logo-box-mid">
+                        <div className="header__logo-box-mid">
                             <img src="https://www.wanderon.in/svg/nav/phone.svg" alt="phone" />
                             <h1>+880145456454</h1>
                         </div>
 
-                        <div class="header__logo-box-last d-flex justify-around">
+                        <div className="header__logo-box-last d-flex justify-around">
                             <h1>Home</h1>
                             <h1>WORKCATIONS</h1>
                             <h1>BLOGS</h1>
                         </div>
                     </div>
 
-                    <div class="header__text-box">
+                    <div className="header__text-box">
                         <h1 >
                             COMPLETE ALL YOUR OUTDOOR NEEDS HERE
                         </h1>
@@ -87,19 +90,25 @@ const Home = () => {
 
                     <hr className='my-2' />
 
-                    <h1>
 
-                    </h1>
                 </div>
-                <div>
-                    <Items></Items>
+                <div className='grid grid-cols-3 gap-3'>
+                    {
+                        items.slice(0, 6).map(item => <Item
+                            key={item.id}
+                            item={item}
+                        ></Item>)
+                    }
+
                 </div>
                 <div>
                     <Team></Team>
-
                 </div>
 
+
             </div>
+
+
         </div>
     );
 };

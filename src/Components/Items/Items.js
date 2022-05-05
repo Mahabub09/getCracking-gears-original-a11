@@ -1,16 +1,21 @@
-import React, { useEffect, useState } from 'react';
+
+// import { useEffect, useState } from 'react';
+import useItems from '../../hooks/useItems';
+
 import Item from '../Item/Item';
 
 const Items = () => {
-    const [items, setItems] = useState([])
-    useEffect(() => {
-        fetch('items.json')
-            .then(res => res.json())
-            .then(data => setItems(data))
-    }, [])
+    const [items] = useItems()
+
+    // const [items, setItems] = useState([])
+    // useEffect(() => {
+    //     fetch('items.json')
+    //         .then(res => res.json())
+    //         .then(data => setItems(data))
+    // }, [])
     return (
         <div >
-            <h1>Items; {items.length}</h1>
+
             <div className='grid grid-cols-3 gap-3'>
                 {
                     items.map(item => <Item

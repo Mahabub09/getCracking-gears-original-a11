@@ -1,6 +1,6 @@
 import React from 'react';
 import { FcGoogle } from "react-icons/fc";
-import { BsFacebook } from "react-icons/bs";
+
 import { SiGithub } from "react-icons/si";
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
@@ -32,18 +32,15 @@ const SocialLogin = () => {
         <div className='mt-5'>
 
 
-            <div className=''>
+            <div>
                 <button
                     onClick={() => signInWithGoogle()}
-                    className='btn btn-outline-secondary w-50 d-block mx-auto my-2'>
-                    <FcGoogle></FcGoogle>
+                    className='btn btn-primary w-50 d-block mx-auto my-2'>
+                    <FcGoogle ></FcGoogle>
 
-                    <span className='px-2'>Google Sign In</span>
+                    <span >Google Sign In</span>
                 </button>
-                <button className='btn btn-primary w-50 d-block mx-auto my-2'>
-                    <BsFacebook></BsFacebook>
-                    <span className='px-2'>Facebook Sign In</span>
-                </button>
+
                 <button
                     onClick={() => signInWithGithub()}
                     className='btn btn-dark w-50 d-block mx-auto'>
@@ -57,7 +54,7 @@ const SocialLogin = () => {
                 <p className='mt-2 px-2'>or</p>
                 <div style={{ height: '1px' }} className='bg-primary w-50'></div>
             </div>
-        </div>
+        </div >
     );
 };
 

@@ -28,6 +28,7 @@ const Item = ({ item }) => {
                 <p>{short_description}</p>
 
                 <button onClick={() => navigateToItemDetail(id)} className='btn btn-primary align-items-center' >MANAGE</button>
+                <button onClick={() => navigateToItemDetail(id)} className='btn btn-danger align-items-center' >Delete</button>
             </div>
         </div>
     );

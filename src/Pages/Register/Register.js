@@ -5,6 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Loading from '../../Components/Loading/Loading';
 import auth from '../../firebase.init';
 import SocialLogin from '../Login/SocialLogin/SocialLogin';
+import './Register.css'
 const Register = () => {
     const [agree, setAgree] = useState(false);
     const [
@@ -25,6 +26,7 @@ const Register = () => {
         navigate('/home');
     }
 
+
     const handleRegister = async (event) => {
         event.preventDefault();
         const name = event.target.name.value;
@@ -39,21 +41,22 @@ const Register = () => {
 
     return (
 
-        <div className='register-form mt-3'>
-            <h2 className='text-success' style={{ textAlign: 'center' }}>Please Register</h2>
+        <div className='register-form mt-3 container w-50 mx-auto shadow-lg p-3 my-5 bg-body rounded '>
+            <div className='d-flex justify-content-between'><button className='mx-auto border-end w-50 text-success' onClick={navigateLogin}>LOGIN</button>
+                <button className='mx-auto border-start w-50 text-success'>REGISTER</button></div>
             <SocialLogin></SocialLogin>
-            <form onSubmit={handleRegister}>
+            <form className='d-flex flex-column justify-content-center' onSubmit={handleRegister}>
                 <input type="text" name="name" id="" placeholder='Your Name' />
 
                 <input type="email" name="email" id="" placeholder='Email Address' required />
 
                 <input type="password" name="password" id="" placeholder='Password' required />
-                <input onClick={() => setAgree(!agree)}
+                <div><input onClick={() => setAgree(!agree)}
                     type="checkbox" name="terms" id="terms" />
-                <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor="terms">Accept Paradise Resort Terms and Conditions</label>
-                <input
-                    disabled={!agree}
-                    className='btn-success w-50 mx-auto rounded' type="submit" value="Register" />
+                    <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor="terms">Accept Get Cracking Gears Terms</label></div>
+                <button disabled={!agree} className="btn-success w-50 mx-auto py-2 my-2 rounded">REGISTER
+
+                </button>
             </form>
             <p>Already have an account? <Link to="/login" className='text-success pe-auto text-decoration-none fw-bold italic' onClick={navigateLogin} >Please Login</Link> </p>
 

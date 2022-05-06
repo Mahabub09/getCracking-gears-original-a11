@@ -9,6 +9,7 @@ import './Home.css'
 import useItems from '../../hooks/useItems';
 import Item from '../../Components/Item/Item';
 import Team from '../../Components/Team/Team';
+import Loading from '../../Components/Loading/Loading';
 
 
 const Home = () => {
@@ -103,6 +104,7 @@ const Home = () => {
                 </div>
                 <div>
                     <Team></Team>
+                    <Loading></Loading>
                 </div>
 
 

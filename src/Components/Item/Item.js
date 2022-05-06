@@ -9,7 +9,7 @@ const Item = ({ item }) => {
     const navigateToItemDetail = id => {
         navigate(`/item/${id}`);
     }
-    const { id, name, img, supplier_name, price, short_description, quantity } = item
+    const { _id, name, img, supplier_name, price, short_description, quantity } = item
     return (
 
         <div>
@@ -27,8 +27,8 @@ const Item = ({ item }) => {
                 </div>
                 <p>{short_description}</p>
 
-                <button onClick={() => navigateToItemDetail(id)} className='btn btn-primary align-items-center' >MANAGE</button>
-                <button onClick={() => navigateToItemDetail(id)} className='btn btn-danger align-items-center' >Delete</button>
+                <button onClick={() => navigateToItemDetail(_id)} className='btn btn-primary align-items-center' >MANAGE</button>
+                <button onClick={() => navigateToItemDetail(_id)} className='btn btn-danger align-items-center' >Delete</button>
             </div>
         </div>
     );

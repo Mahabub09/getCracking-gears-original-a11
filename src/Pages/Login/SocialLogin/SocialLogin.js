@@ -1,6 +1,5 @@
 import React from 'react';
 import { FcGoogle } from "react-icons/fc";
-
 import { SiGithub } from "react-icons/si";
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';

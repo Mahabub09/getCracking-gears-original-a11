@@ -2,12 +2,11 @@ import React, { useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { BiRightArrowCircle } from "react-icons/bi";
 import { BiLogInCircle } from "react-icons/bi";
-import { Button, Form, ToastContainer } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-
 import SocialLogin from './SocialLogin/SocialLogin';
 import Loading from '../../Components/Loading/Loading';
-import { toast } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import auth from '../../firebase.init';
 
 

@@ -20,6 +20,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/item/:itemId' element={<ItemInfo></ItemInfo>}></Route>
         <Route path='/items' element={<Items></Items>}></Route>
         <Route path='/myItems' element={<MyItems></MyItems>}></Route>

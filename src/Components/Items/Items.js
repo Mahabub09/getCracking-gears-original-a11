@@ -19,7 +19,7 @@ const Items = () => {
             <div className='grid grid-cols-3 gap-3'>
                 {
                     items.map(item => <Item
-                        key={item.id}
+                        key={item._id}
                         item={item}
                     ></Item>)
                 }

@@ -3,7 +3,7 @@ import React from 'react';
 import { Triangle } from 'react-loader-spinner'
 const Loading = () => {
     return (
-        <div>
+        <div className='container w-25 mx-auto'>
             <Triangle
                 height="100"
                 width="100"

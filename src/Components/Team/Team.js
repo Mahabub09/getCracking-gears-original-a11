@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Slider from 'react-slick/lib/slider';
 import t1 from '../../Images/t1.jpg'
 import t2 from '../../Images/t2.jpg'
@@ -22,12 +22,13 @@ const Team = () => {
     };
     const PrevArrow = ({ onClick }) => {
         return (
-            <div className='arrow Left' onClick={onClick}>
+            <div className='arrow left' onClick={onClick}>
                 <FaArrowLeft></FaArrowLeft>
             </div>
 
         )
     };
+    const [cardIndex, setCardIndex] = useState(0)
 
     const settings = {
         infinite: true,
@@ -37,32 +38,37 @@ const Team = () => {
         centerMode: true,
         centerPadding: 0,
         nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />
+        prevArrow: <PrevArrow />,
+        beforeChange: (current, right) => setCardIndex(right)
 
     }
     return (
         <div className='Team mx-auto'>
             <Slider className='rounded-md'  {...settings}>
-                <div >
-                    <img className=' w-50 rounded-full mx-auto ' src={t1} alt="" />
-                    <h1>akjbdh</h1>
-                    <p>DGVfgvgdgfusyhdfgfh</p>
-                    <small><i>manager</i></small>
-
-                </div>
-                <div>
-                    <img className='w-50 rounded-full mx-auto ' src={t2} alt="" />
-                    <h1>akjbdh</h1>
-                    <p>DGVfgvgdgfusyhdfgfh</p>
-                    <small><i>manager</i></small>
-
-                </div>
-                <div >
-                    <img className='w-50 rounded-full mx-auto' src={t3} alt="" />
-                    <div className='text-center'>
-                        <h1>Sergio Peinson</h1>
+                <div className={cardIndex ? "slide activeSlide" : "slide"}>
+                    <div className='inf'>
+                        <img className=' w-50 rounded-full mx-auto ' src={t1} alt="" />
+                        <h1>akjbdh</h1>
                         <p>DGVfgvgdgfusyhdfgfh</p>
                         <small><i>manager</i></small>
+                    </div>
+
+                </div>
+                <div className={cardIndex ? "slide activeSlide" : "slide"}>
+                    <div className='inf'> <img className='w-50 rounded-full mx-auto ' src={t2} alt="" />
+                        <h1>akjbdh</h1>
+                        <p>DGVfgvgdgfusyhdfgfh</p>
+                        <small><i>manager</i></small></div>
+
+                </div>
+                <div className={cardIndex ? "slide activeSlide" : "slide"}>
+                    <div className='inf'>
+                        <img className='w-50 rounded-full mx-auto' src={t3} alt="" />
+                        <div className='text-center'>
+                            <h1>Sergio Peinson</h1>
+                            <p>DGVfgvgdgfusyhdfgfh</p>
+                            <small><i>manager</i></small>
+                        </div>
                     </div>
 
                 </div>

@@ -3,13 +3,13 @@ import { GiRunningShoe } from "react-icons/gi";
 import { GiLightBackpack } from "react-icons/gi";
 import { GiSleevelessJacket } from "react-icons/gi";
 import { GiCampingTent } from "react-icons/gi";
-
 import Typewriter from 'typewriter-effect';
 import './Home.css'
 import useItems from '../../hooks/useItems';
 import Item from '../../Components/Item/Item';
 import Team from '../../Components/Team/Team';
 import Loading from '../../Components/Loading/Loading';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -27,9 +27,8 @@ const Home = () => {
                         </div>
 
                         <div className="header__logo-box-last d-flex justify-around">
-                            <h1>Home</h1>
-                            <h1>WORKCATIONS</h1>
-                            <h1>BLOGS</h1>
+                            <Link to="home">HOME</Link>
+
                         </div>
                     </div>
 
@@ -102,14 +101,15 @@ const Home = () => {
                     }
 
                 </div>
+
                 <div>
                     <Team></Team>
-                    <Loading></Loading>
                 </div>
 
 
             </div>
 
+            <Loading></Loading>
 
         </div>
     );

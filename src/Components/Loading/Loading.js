@@ -1,16 +1,17 @@
 import React from 'react';
 
-import { Triangle } from 'react-loader-spinner'
+import { BallTriangle } from 'react-loader-spinner'
 const Loading = () => {
     return (
-        <div className='container w-25 mx-auto'>
-            <Triangle
+
+        <div className='d-flex justify-center'>
+            <BallTriangle
                 height="100"
-                width="100"
-                color='grey'
+                width="75"
+                color='salmon'
                 ariaLabel='loading'
             >
-            </Triangle>
+            </BallTriangle>
 
         </div>
     );

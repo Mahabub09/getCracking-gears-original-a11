@@ -1,0 +1,11 @@
+.social-icons li a {
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+
+.social-icons li a:hover {
+    transform: translateY(-10px);
+}

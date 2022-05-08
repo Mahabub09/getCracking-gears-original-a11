@@ -7,7 +7,9 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import SocialLogin from './SocialLogin/SocialLogin';
 import Loading from '../../Components/Loading/Loading';
 import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../firebase.init';
+
 
 
 

@@ -5,3 +5,38 @@
     width: 65%;
     height: 600px;
 }
+
+.slide .inf {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.slide {
+    transform: scale(0.2);
+    transition: transform 300ms;
+    opacity: 0.5;
+
+}
+
+.activeSlide {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.arrow {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.right {
+    right: 0%;
+    top: 50%;
+
+
+}
+
+.left {
+    left: 0%;
+    top: 50%;
+}

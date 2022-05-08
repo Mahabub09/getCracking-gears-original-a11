@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useForm } from "react-hook-form";
 import frm_bg from '../../Images/frm-bg.jpg'
@@ -19,7 +18,7 @@ const AddItems = () => {
     }
     return (
         <div>
-            <h1 className='text-center fs-3 fst-italic mb-2 mt-5'>IMPORT ITEM DETAILS</h1>
+            <h1 className='text-center fs-3 fst-italic mb-2 mt-5 underline underline-offset-2'>IMPORT ITEM DETAILS</h1>
             <div className='container d-flex justify-center  gap-2' >
 
                 <div className='w-50'>

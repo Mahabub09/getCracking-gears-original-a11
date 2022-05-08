@@ -8,8 +8,9 @@ import './Home.css'
 import useItems from '../../hooks/useItems';
 import Item from '../../Components/Item/Item';
 import Team from '../../Components/Team/Team';
-import Loading from '../../Components/Loading/Loading';
+import '../../Components/Items/Items.css'
 import { Link } from 'react-router-dom';
+import OurUsers from '../../Components/CountUp/OurUsers';
 
 
 const Home = () => {
@@ -92,7 +93,7 @@ const Home = () => {
 
 
                 </div>
-                <div className='grid grid-cols-3 gap-3'>
+                <div className='grid grid-cols-3 gap-3 responsive'>
                     {
                         items.slice(0, 6).map(item => <Item
                             key={item.id}
@@ -100,16 +101,19 @@ const Home = () => {
                         ></Item>)
                     }
 
+
+
                 </div>
+                <div className='d-flex justify-center my-3'> <Link className='w-25  btn btn-success' to="/items">Manage Items</Link></div>
 
                 <div>
+                    <h1 className='text-center fs-3 underline underline-offset-2 text-indigo-800 my-3'> OUR TEAM </h1>
                     <Team></Team>
                 </div>
-
-
+                <div>
+                    <OurUsers></OurUsers>
+                </div>
             </div>
-
-            <Loading></Loading>
 
         </div>
     );

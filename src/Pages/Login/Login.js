@@ -65,7 +65,7 @@ const Login = () => {
         }
     }
     return (
-        <div className='container w-50 mx-auto shadow-lg p-3 my-5 bg-body rounded  '>
+        <div className='container w-50 mx-auto shadow-lg p-3 my-5 bg-body rounded responsive '>
             <div className='d-flex justify-content-between'><button className='mx-auto border-end w-50 text-success'>LOGIN</button>
                 <button className='mx-auto border-start w-50 text-success' onClick={navigateRegister}>REGISTER</button></div>
             <SocialLogin></SocialLogin>

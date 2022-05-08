@@ -2,6 +2,7 @@ import React from 'react';
 import useItems from '../../hooks/useItems';
 import { BsArrowRight } from 'react-icons/bs';
 import { MdDelete } from 'react-icons/md';
+import '../../Components/Items/Items.css'
 
 const ManageItems = () => {
     const [items, setItems] = useItems();
@@ -22,7 +23,7 @@ const ManageItems = () => {
     }
 
     return (
-        <div className='container font-serif'>
+        <div className='container font-serif responsive'>
             <h2 className='text-indigo-900 text-center fs-2 underline underline-offset-4 '>MANAGE ITEMS</h2>
             {
 

@@ -1,22 +1,15 @@
-
-// import { useEffect, useState } from 'react';
 import useItems from '../../hooks/useItems';
-
+import './Items.css';
 import Item from '../Item/Item';
 
 const Items = () => {
     const [items] = useItems()
 
-    // const [items, setItems] = useState([])
-    // useEffect(() => {
-    //     fetch('items.json')
-    //         .then(res => res.json())
-    //         .then(data => setItems(data))
-    // }, [])
+
     return (
         <div >
 
-            <div className='grid grid-cols-3 gap-3'>
+            <div className='grid grid-cols-3 responsive  gap-3'>
                 {
                     items.map(item => <Item
                         key={item._id}

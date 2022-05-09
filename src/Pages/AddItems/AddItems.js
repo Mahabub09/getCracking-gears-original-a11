@@ -1,11 +1,15 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { useForm } from "react-hook-form";
+import { toast } from 'react-toastify';
+import auth from '../../firebase.init';
 import frm_bg from '../../Images/frm-bg.jpg'
 const AddItems = () => {
+    const [user] = useAuthState(auth);
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
-        console.log(data);
-        const url = `http://localhost:5000/item`;
+
+        const url = `https://immense-stream-59373.herokuapp.com/item`;
         fetch(url, {
             method: 'POST',
             headers: {
@@ -14,7 +18,14 @@ const AddItems = () => {
             body: JSON.stringify(data)
         })
             .then(res => res.json())
-            .then(result => { console.log(result) })
+            .then(result => {
+
+                if (result.insertedId) {
+                    toast("YOUR ITEM IS ADDED");
+
+                }
+
+            })
     }
     return (
         <div>
@@ -28,6 +39,7 @@ const AddItems = () => {
 
                     <input placeholder='Item Name' className='border border-dark p-2 rounded' {...register("name", { required: true, maxLength: 20 })} />
                     <input placeholder='Supplier Name' className='border border-dark p-2 rounded' {...register("supplier_name")} />
+                    <input placeholder='EMAIL' className='border border-dark p-2 rounded' value={user?.email} {...register("email")} required readOnly />
                     <input placeholder='Quantity' className='border border-dark p-2 rounded' type="number" {...register("quantity")} />
                     <input placeholder='Price' className='border border-dark p-2 rounded' type="number" {...register("price")} />
                     <input placeholder='Image URL' className='border border-dark py-2 rounded' {...register("img")} />

@@ -28,7 +28,7 @@ const Home = () => {
                         </div>
 
                         <div className="header__logo-box-last d-flex justify-around">
-                            <Link to="home">HOME</Link>
+
 
                         </div>
                     </div>

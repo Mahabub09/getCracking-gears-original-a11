@@ -16,6 +16,7 @@ import RequireAuth from './Components/RequireAuth/RequireAuth';
 import ManageItems from './Components/ManageItems/ManageItems';
 import Footer from './Pages/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
 
       </Routes>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

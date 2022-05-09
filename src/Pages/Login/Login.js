@@ -6,7 +6,7 @@ import { Form } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import SocialLogin from './SocialLogin/SocialLogin';
 import Loading from '../../Components/Loading/Loading';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../firebase.init';
 
@@ -92,7 +92,7 @@ const Login = () => {
             <p className='mt-3'>New To My Place? <Link
                 to="/register" className='text-success pe-auto text-decoration-none fw-bold' onClick={navigateRegister}>Jump To The Register<BiRightArrowCircle></BiRightArrowCircle></Link></p>
             <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
-            <ToastContainer></ToastContainer>
+
 
 
         </div>

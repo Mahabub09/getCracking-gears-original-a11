@@ -4,7 +4,7 @@ const useItems = () => {
     const [items, setItems] = useState([])
     useEffect(() => {
 
-        fetch("https://immense-stream-59373.herokuapp.com/item")
+        fetch("https://radiant-meadow-31133.herokuapp.com/item")
             .then(res => res.json())
             .then(data => setItems(data))
 

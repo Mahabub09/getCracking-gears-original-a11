@@ -13,15 +13,15 @@ const OurUsers = () => {
 
                 <div className='fs-1 ' ><FcBusinessman className='mx-auto'></FcBusinessman>
                     <small><i>SUPPLIER</i></small><br />
-                    <div className='d-flex align-items-center'> <CountUp className='mx-auto ' end={100} duration={5}></CountUp><AiOutlinePlus></AiOutlinePlus></div>
+                    <div className='d-flex align-items-center'> <CountUp className='mx-auto text-red-500' end={100} duration={5}></CountUp><AiOutlinePlus></AiOutlinePlus></div>
                 </div>
                 <div className='fs-1'><MdProductionQuantityLimits className='mx-auto' ></MdProductionQuantityLimits>
                     <small><i>PRODUCTS</i></small><br />
-                    <div className='d-flex align-items-center'> <CountUp className='mx-auto' end={6700} duration={5}></CountUp><AiOutlinePlus></AiOutlinePlus></div>
+                    <div className='d-flex align-items-center'> <CountUp className='mx-auto text-red-500' end={6700} duration={5}></CountUp><AiOutlinePlus></AiOutlinePlus></div>
                 </div>
                 <div className='fs-1'><FaUsers className='mx-auto'></FaUsers>
                     <small><i>USERS</i></small><br />
-                    <div className='d-flex align-items-center'> <CountUp className='mx-auto' end={3000} duration={5}></CountUp><AiOutlinePlus></AiOutlinePlus></div>
+                    <div className='d-flex align-items-center'> <CountUp className='mx-auto text-red-500' end={3000} duration={5}></CountUp><AiOutlinePlus></AiOutlinePlus></div>
                 </div>
 
 

@@ -9,7 +9,7 @@ const ManageItems = () => {
     const itemDelete = id => {
         const proceed = window.confirm('Are you sure?');
         if (proceed) {
-            const url = `https://immense-stream-59373.herokuapp.com/item/${id}`;
+            const url = `https://radiant-meadow-31133.herokuapp.com/item/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

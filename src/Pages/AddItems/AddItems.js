@@ -9,7 +9,7 @@ const AddItems = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
 
-        const url = `https://immense-stream-59373.herokuapp.com/item`;
+        const url = `https://radiant-meadow-31133.herokuapp.com/item`;
         fetch(url, {
             method: 'POST',
             headers: {

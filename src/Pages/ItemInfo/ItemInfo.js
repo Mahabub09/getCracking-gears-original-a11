@@ -5,7 +5,7 @@ const ItemInfo = () => {
     const { itemId } = useParams();
     const [item, setItem] = useState({});
     useEffect(() => {
-        const url = `https://immense-stream-59373.herokuapp.com/item/${itemId}`;
+        const url = `https://radiant-meadow-31133.herokuapp.com/item/${itemId}`;
 
         fetch(url)
             .then(res => res.json())
@@ -24,7 +24,7 @@ const ItemInfo = () => {
             name: item.name,
             quantity: quantity,
         };
-        const url = `https://immense-stream-59373.herokuapp.com/item/${itemId}`;
+        const url = `https://radiant-meadow-31133.herokuapp.com/item/${itemId}`;
         console.log(url);
         fetch(url, {
             method: "PUT",

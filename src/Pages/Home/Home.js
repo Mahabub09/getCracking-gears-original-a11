@@ -93,25 +93,36 @@ const Home = () => {
 
 
                 </div>
-                <div className='grid grid-cols-3 gap-3 responsive'>
-                    {
-                        items.slice(0, 6).map(item => <Item
-                            key={item.id}
-                            item={item}
-                        ></Item>)
-                    }
+                <div>
+                    <h3 className='fs-2 font-serif underline underline-offset-2 text-center my-1'>
+                        ITEMS
+                    </h3>
+                    <div className='grid grid-cols-3 gap-3 responsive'>
+                        {
+                            items.slice(0, 6).map(item => <Item
+                                key={item.id}
+                                item={item}
+                            ></Item>)
+                        }
 
 
 
+                    </div>
                 </div>
                 <div className='d-flex justify-center my-3'> <Link className='w-25  btn btn-success' to="/items">Manage Items</Link></div>
 
                 <div>
-                    <h1 className='text-center fs-3 underline underline-offset-2 text-indigo-800 my-3'> OUR TEAM </h1>
-                    <Team></Team>
+
+                    <div>
+                        <h1 className='text-center fs-3 underline underline-offset-2 text-indigo-800 my-3'> OUR TEAM </h1>
+                        <Team></Team>
+                    </div>
                 </div>
                 <div>
-                    <OurUsers></OurUsers>
+                    <h3 className='fs-2 font-serif underline underline-offset-2 text-center my-1'>OUR RECORDS</h3>
+                    <div>
+                        <OurUsers></OurUsers>
+                    </div>
                 </div>
             </div>
 
